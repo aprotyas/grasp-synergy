@@ -1,6 +1,6 @@
 # Grasp Synergy ROS package
 
-[![Build Status](https://travis-ci.org/felixduvallet/grasp-synergy.svg?branch=master)](https://travis-ci.org/felixduvallet/grasp-synergy)
+[![Build Status](https://app.travis-ci.com/aprotyas/grasp-synergy.svg?branch=noetic)](https://travis-ci.com/aprotyas/grasp-synergy)
 
 This package implements grasp synergies (aka eigengrasps): low-dimensional
 representation of hand configurations.
