@@ -135,8 +135,8 @@ class TestCase(unittest.TestCase):
     def test_component_ranges_0(self):
         self.synergy.fit_joint_state_messages(self.messages)
         (ret_min, ret_max) = self.synergy.synergy_range(0)
-        self.assertAlmostEqual(-1.18130, ret_min, places=4)
-        self.assertAlmostEqual(1.12507406, ret_max, places=4)
+        self.assertAlmostEqual(-1.12507406, ret_min, places=4)
+        self.assertAlmostEqual(1.18130298, ret_max, places=4)
 
     def test_component_ranges_1(self):
         self.synergy.fit_joint_state_messages(self.messages)
